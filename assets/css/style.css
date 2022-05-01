@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 /* the color property for header h1 did nothing so i removed it; header a handles it all */
 
 header {
-    background-color: #39A6B2;
+    background: #39A6B2;
     padding: 20px 35px;
 }
 
@@ -43,4 +44,28 @@ nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* footer */
+
+footer {
+    background: #FCE138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024E76;
+    font-size: 30px;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024E76;
 }
