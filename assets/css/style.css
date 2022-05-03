@@ -77,6 +77,23 @@ section {
     padding: 60px;
 }
 
+section h2 {
+    display: inline-block;
+    color: #024E76;
+    font-size: 55px;
+    padding: 0 100px 20px 100px;
+    margin-bottom: 35px;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #FCE138
+}
+
+.secondary-border {
+    border-color: #39A6B2;
+}
+
 /* hero */
 
 .hero {
@@ -132,15 +149,6 @@ section {
     text-align: center;
 }
 
-.intro h2 {
-    display: inline-block;
-    color: #024E76;
-    font-size: 55px;
-    padding: 0 100px 20px 100px;
-    margin-bottom: 35px;
-    border-bottom: 3px solid #FCE138;
-}
-
 .intro p {
     color: #39A6B2;
     display: block;
@@ -148,4 +156,35 @@ section {
     width: 80%;
     font-size: 20px;
     line-height: 1.7;
+}
+
+/* what you do */
+
+.steps {
+    background: #FCE138;
+    text-align: center;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024E76;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39A6B2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 46px;
 }
