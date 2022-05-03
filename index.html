@@ -19,14 +19,42 @@
             </nav>
         </header>
 
-        <figure>
-            <!-- jumbotron -->
-            <form></form>
-        </figure>
+        <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consultation.</p>
+                <form action="">
+                    <label for="name">Enter full name:</label>
+                    <input id="name" name="name" type="text" placeholder="Your Name" />
 
-        <article id="what-we-do">
+                    <label for="email">Enter email address:</label>
+                    <input id="email" name="email" type="email" placeholder="Email Address" />
+
+                    <label for="phone">Enter a telephone number:</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Phone Number" />
+
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input id="trainer-yes" name="trainer-confirm" type="radio" />
+                        <label for="trainer-yes">Yes</label>
+
+                        <input id="trainer-no" name="trainer-confirm" type="radio" />
+                        <label for="trainer-no">No</label>
+                    </p>
+
+                    <p>
+                        <label for="age-confirm">I acknowledge that I am at least 18 years of age</label>
+                        <input id="age-confirm" name="age-confirm" type="checkbox" />
+                    </p>
+
+                    <button type="submit">Get running!</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="what-we-do">
             <h2>What We Do</h2>
-        </article>
+        </section>
 
         <section id="what-you-do">
             <h2>What You Do</h2>
