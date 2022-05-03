@@ -125,3 +125,27 @@ section {
     border: 0;
     font-size: 16px;
 }
+
+/* what we do */
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    display: inline-block;
+    color: #024E76;
+    font-size: 55px;
+    padding: 0 100px 20px 100px;
+    margin-bottom: 35px;
+    border-bottom: 3px solid #FCE138;
+}
+
+.intro p {
+    color: #39A6B2;
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.7;
+}
