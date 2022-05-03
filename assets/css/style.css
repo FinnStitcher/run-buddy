@@ -7,6 +7,7 @@
 body {
     color: #39A6B2;
     font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
 }
 
 /* header */
@@ -76,6 +77,8 @@ section {
     padding: 60px;
 }
 
+/* hero */
+
 .hero {
     background: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -92,4 +95,33 @@ section {
     border: 3px solid #024E76;
     position: absolute;
     bottom: 120px; right: 140px;
+}
+
+.hero h3 {
+    font-size: 26px;
+}
+
+.hero p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    border: 2px solid #024E76;
+    font-size: 16px;
+}
+
+.hero label {
+    margin: 0 5px;
+}
+
+.hero button {
+    background: #024E76;
+    color: #FCE138;
+    padding: 12px 30px;
+    border: 0;
+    font-size: 16px;
 }
