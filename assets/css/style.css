@@ -94,6 +94,14 @@ section h2 {
     border-color: #39A6B2;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 /* hero */
 
 .hero {
@@ -114,11 +122,11 @@ section h2 {
     bottom: 120px; right: 140px;
 }
 
-.hero h3 {
+.hero-form h3 {
     font-size: 26px;
 }
 
-.hero p {
+.hero-form p {
     margin: 5px 0 15px 0;
 }
 
@@ -131,11 +139,11 @@ section h2 {
     font-size: 16px;
 }
 
-.hero label {
+.hero-form label {
     margin: 0 5px;
 }
 
-.hero button {
+.hero-form button {
     background: #024E76;
     color: #FCE138;
     padding: 12px 30px;
@@ -187,4 +195,45 @@ section h2 {
 
 .steps span {
     font-size: 46px;
+}
+
+/* trainers */
+
+.trainers {
+    text-align: center;
+}
+
+.trainer {
+    background: #024E76;
+    color: #FCE138;
+    display: flow-root;
+    width: 900px;
+    margin: 0 auto 30px auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer div {
+    width: 65%;
+    padding: 35px;
+    float: left;
+}
+
+.trainer h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer h4 {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.trainer p {
+    font-size: 17px;
+    line-height: 1.3;
 }
