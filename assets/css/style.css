@@ -106,6 +106,14 @@ section h2 {
     text-align: right;
 }
 
+.blue-bg {
+    background: #024E76;
+}
+
+.yellow-bg {
+    background: #FCE138;
+}
+
 
 /* HERO */
 
@@ -118,7 +126,6 @@ section h2 {
 }
 
 .hero-form {
-    background: #FCE138;
     color: #024E76;
     width: 500px;
     padding: 20px;
@@ -149,7 +156,6 @@ section h2 {
 }
 
 .hero-form button {
-    background: #024E76;
     color: #FCE138;
     padding: 12px 30px;
     border: 0;
@@ -176,7 +182,6 @@ section h2 {
 /* WHAT YOU DO */
 
 .steps {
-    background: #FCE138;
     text-align: center;
 }
 
@@ -250,7 +255,6 @@ section h2 {
 /* REACH OUT */
 
 .contact {
-    background: #024E76;
     text-align: center;
 }
 
