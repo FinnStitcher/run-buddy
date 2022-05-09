@@ -13,4 +13,4 @@ https://finnstitcher.github.io/run-buddy/
 ## Contributions
 Made with love by Finn Stitcher, with assistance from the Washington University Coding Boot Camp.
 
-# Run Buddy Inc.
+### ©️2019 Run Buddy, Inc 
