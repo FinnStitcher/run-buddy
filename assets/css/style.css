@@ -18,20 +18,18 @@ section {
 }
 
 .section-title {
-    display: inline-block;
     color: #024E76;
+    text-align: center;
     font-size: 55px;
-    padding: 0 100px 20px 100px;
-    margin-bottom: 35px;
+    width: 50%;
+    padding-bottom: 20px;
     border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
 }
+/* margin: auto is keeping it in the middle even though .flex-row isnt */
 
-.yellow-border {
-    border-color: #FCE138
-}
-
-.cyan-border {
-    border-color: #39A6B2;
+.flex-row {
+    display: flex; flex-flow: row wrap;
 }
 
 .text-left {
@@ -40,6 +38,14 @@ section {
 
 .text-right {
     text-align: right;
+}
+
+.yellow-border {
+    border-color: #FCE138
+}
+
+.cyan-border {
+    border-color: #39A6B2;
 }
 
 .blue-bg {
@@ -183,10 +189,6 @@ footer a {
 
 /* WHAT WE DO */
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     color: #39A6B2;
     display: block;
@@ -194,6 +196,7 @@ footer a {
     width: 80%;
     font-size: 20px;
     line-height: 1.7;
+    text-align: center;
 }
 
 
