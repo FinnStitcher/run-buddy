@@ -206,28 +206,55 @@ footer a {
     text-align: center;
 }
 
-.steps div {
-    margin-bottom: 80px;
+.step {
+    display: flex; flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #39A6B2;
 }
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
     color: #024E76;
     font-size: 38px;
-    margin-top: 10px;
+    flex: 1 30%;
+}
+/* flex: 1 30% = flex: flex-grow flex-basis = this should have at least 30% of the container; if there is extra space (somehow), it should have 1/n portions */
+
+.step-info {
+    flex: 2 70%;
+    display: flex; flex-flow: row wrap;
+    align-items: center;
+}
+/* flex: 2 70% = this should have at least 70% of the container; if there is extra space, it should have 2/n portions */
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
-.steps p {
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+/* step-info has 13 portions, one of whic his dedicated to the image, and the other 12 dedicated to the text */
+/* however, step-img must be at least 12% of the total width */
+/* step-text has no flex-basis value, so it automatically gets all the leftover space */
+
+.step-text h4 {
+    color: #024E76;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.step-text p {
     color: #39A6B2;
-    font-size: 23px;
-}
-
-.steps span {
-    font-size: 46px;
+    font-size: 18px;
 }
 
 
