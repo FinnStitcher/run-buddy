@@ -54,12 +54,13 @@ section h2 {
 /* HEADER */
 
 header {
+    display: flex; flex-flow: row wrap;
+    justify-content: space-between;
     background: #39A6B2;
     padding: 20px 35px;
 }
 
 header h1 {
-    display: inline;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -70,11 +71,9 @@ header a {
     text-decoration: none;
 }
 
-
-/* NAV */
+/* nav */
 
 nav {
-    float: right;
     margin: 7px 0;
 }
 
