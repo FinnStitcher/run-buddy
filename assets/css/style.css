@@ -308,16 +308,22 @@ footer a {
     color: #FCE138;
 }
 
-.contact-info iframe {
-    width: 400px; height: 400px;
+.contact-info {
+    display: flex; flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.contact-info div {
-    display: inline-block;
-    width: 410px;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info iframe {
+    height: 400px;
+    border: 0;
+}
+
+.contact-info div, .contact-info form {
     color: white;
 }
 
@@ -327,7 +333,25 @@ footer a {
 
 .contact-info p, .contact-info address {
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     margin: 20px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    color: #024E76;
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #024E76;
+    margin: 5px 0 15px 0;
+    font-size: 16px;
+}
+
+.contact-form button {
+    color: #024E76;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    font-size: 16px;
 }
