@@ -261,42 +261,40 @@ footer a {
 /* TRAINERS */
 
 .trainers {
-    text-align: center;
+    display: flex; flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .trainer {
     background: #024E76;
     color: #FCE138;
-    display: flow-root;
-    width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 20px;
+    flex: 1;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
-.trainer div {
-    width: 65%;
-    padding: 35px;
-    float: left;
-}
-
-.trainer h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-
-.trainer h4 {
-    font-size: 26px;
-    font-weight: lighter;
-    margin-bottom: 25px;
-}
-
-.trainer p {
-    font-size: 17px;
+.trainer-bio {
+    padding: 25px;
     line-height: 1.3;
+}
+
+.trainer-bio h3 {
+    font-size: 28px;
+}
+
+.trainer-bio h4 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
 }
 
 
