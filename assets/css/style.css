@@ -11,8 +11,47 @@ body {
 }
 
 
+/* SECTIONS GENERAL STYLES */
+
+section {
+    padding: 60px;
+}
+
+section h2 {
+    display: inline-block;
+    color: #024E76;
+    font-size: 55px;
+    padding: 0 100px 20px 100px;
+    margin-bottom: 35px;
+    border-bottom: 3px solid;
+}
+
+.yellow-border {
+    border-color: #FCE138
+}
+
+.cyan-border {
+    border-color: #39A6B2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.blue-bg {
+    background: #024E76;
+}
+
+.yellow-bg {
+    background: #FCE138;
+}
+
+
 /* HEADER */
-/* the color property for header h1 did nothing so i removed it; header a handles it all */
 
 header {
     background: #39A6B2;
@@ -72,46 +111,6 @@ footer div {
 
 footer a {
     color: #024E76;
-}
-
-
-/* SECTIONS GENERAL STYLES */
-
-section {
-    padding: 60px;
-}
-
-section h2 {
-    display: inline-block;
-    color: #024E76;
-    font-size: 55px;
-    padding: 0 100px 20px 100px;
-    margin-bottom: 35px;
-    border-bottom: 3px solid;
-}
-
-.yellow-border {
-    border-color: #FCE138
-}
-
-.cyan-border {
-    border-color: #39A6B2;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.blue-bg {
-    background: #024E76;
-}
-
-.yellow-bg {
-    background: #FCE138;
 }
 
 
