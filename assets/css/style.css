@@ -62,8 +62,13 @@ section {
 header {
     display: flex; flex-flow: row wrap;
     justify-content: space-between;
-    background: #39A6B2;
+    background: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     padding: 20px 35px;
+    position: -webkit-sticky; position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -95,6 +100,13 @@ nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover {
+    background: #FCE138;
+    color: #024E76;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 
@@ -131,7 +143,8 @@ footer a {
     align-items: flex-start;
     background: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 /* call to action */
@@ -174,6 +187,7 @@ footer a {
 }
 
 .form-input {
+    background: rgba(255, 255, 255, 0.75);
     display: block;
     width: 100%;
     margin-bottom: 15px;
@@ -181,6 +195,11 @@ footer a {
     border: 2px solid #024E76;
     border-radius: 10px;
     font-size: 16px;
+}
+
+.form-input:focus {
+    background: #FFFFFF;
+    outline: none;
 }
 
 .hero-form label {
@@ -193,6 +212,11 @@ footer a {
     border: 0;
     border-radius: 10px;
     font-size: 16px;
+}
+
+.hero-form button:hover {
+    color: #FCE138;
+    background: #39A6B2;
 }
 
 
@@ -222,6 +246,9 @@ footer a {
     width: 80%;
     margin: 50px auto;
     padding-bottom: 50px;
+}
+
+.step:not(:last-child) {
     border-bottom: 1px solid #39A6B2;
 }
 
@@ -350,12 +377,17 @@ footer a {
 .contact-form input, .contact-form textarea {
     display: block;
     color: #024E76;
+    background: rgba(255, 255, 255, 0.75);
     width: 100%;
     padding: 7px 15px;
     border: 1px solid #024E76;
     border-radius: 10px;
     margin: 5px 0 15px 0;
     font-size: 16px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background: #FFFFFF;
 }
 
 .contact-form button {
@@ -374,6 +406,7 @@ footer a {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: static;
     }
     
     h1 {
